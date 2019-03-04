@@ -30,13 +30,11 @@ public class Telemarketer {
 		System.out.println("Give me the fourth number");
 		int z = in.nextInt(); 
 		
-		if (x == 8) {
-			System.out.println("do not answer the phone");
-			
-			
-		}
 		
-		
+		if (x == 8 && z ==8 && y==w|| x== 9 && z==9 && y==w || x == 9 && z == 8 && y==w || x == 8 && z == 9 && y==w) {
+			System.out.println("Do not answer phone.");
+		}else{ 
+			System.out.println("Answer the phone.");
 	}
-
+}
 }
