@@ -32,7 +32,7 @@ public class Telemarketer {
 		
 		
 		if (x == 8 && z ==8 && y==w|| x== 9 && z==9 && y==w || x == 9 && z == 8 && y==w || x == 8 && z == 9 && y==w) {
-			System.out.println("Do not answer phone.");
+			System.out.println("Put The Phone DOWNNNNNNNNNN.");
 		}else{ 
 			System.out.println("Answer the phone.");
 	}
