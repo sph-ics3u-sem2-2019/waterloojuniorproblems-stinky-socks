@@ -20,6 +20,23 @@ public class Telemarketer {
 		 * 12) 1,3,3,9
 		 * 13) 1,0,2,6
 		 */
+		Scanner in=new Scanner(System.in); 
+		System.out.println("Give me the first number");
+		int x = in.nextInt();
+		System.out.println("Give me the second number");
+		int y = in.nextInt();
+		System.out.println("Give me the third number");
+		int w = in.nextInt();
+		System.out.println("Give me the fourth number");
+		int z = in.nextInt(); 
+		
+		if (x == 8) {
+			System.out.println("do not answer the phone");
+			
+			
+		}
+		
+		
 	}
 
 }
