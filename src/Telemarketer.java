@@ -21,20 +21,20 @@ public class Telemarketer {
 		 * 13) 1,0,2,6
 		 */
 		Scanner in=new Scanner(System.in); 
-		System.out.println("Give me the first number");
+		System.out.println("Give me the first number.");
 		int x = in.nextInt();
-		System.out.println("Give me the second number");
+		System.out.println("Give me the second number.");
 		int y = in.nextInt();
-		System.out.println("Give me the third number");
+		System.out.println("Give me the third number.");
 		int w = in.nextInt();
-		System.out.println("Give me the fourth number");
+		System.out.println("Give me the fourth number.");
 		int z = in.nextInt(); 
-		
-		
+
+
 		if (x == 8 && z ==8 && y==w|| x== 9 && z==9 && y==w || x == 9 && z == 8 && y==w || x == 8 && z == 9 && y==w) {
 			System.out.println("Put The Phone DOWNNNNNNNNNN.");
 		}else{ 
 			System.out.println("Answer the phone.");
+		}
 	}
-}
 }

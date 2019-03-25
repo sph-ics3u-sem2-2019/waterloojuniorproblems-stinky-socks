@@ -28,13 +28,13 @@ public class ShiftySum {
 		System.out.println("Give me the second number.");
 		double k = in.nextInt();
 		double answer = 0;
-		
+
 		while (k >= 0) {
 			double power = Math.pow(10, k);
 			answer = N*power + answer; 
 			k = k-1; 
 		}
-		
+
 		System.out.println("The total is "+answer);
 	}
 
